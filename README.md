@@ -133,7 +133,7 @@ requireJs {
 ### minifyJs (Uses the [Google Closure Compiler](http://code.google.com/closure/compiler/))
 - source = File to minify
 - dest = File for minified output
-- *(Optional)* sourcemap = Source map file
+- *(Optional)* sourceMap = Source map file
 - *(Optional)* closure.compilationLevel = 'WHITESPACE_ONLY', 'SIMPLE_OPTIMIZATIONS' (default), or 'ADVANCED_OPTIMIZATIONS' (are you *hardcore*?)
 - *(Optional)* closure.warningLevel = 'QUIET', 'DEFAULT' (default), or 'VERBOSE'
 - *(Optional)* closure.compilerOptions = [CompilerOptions](http://code.google.com/p/closure-compiler/source/browse/trunk/src/com/google/javascript/jscomp/CompilerOptions.java?r=1918) object
